@@ -1,9 +1,11 @@
 module.exports = {
   HOST: 'localhost',
   USER: 'root',
-  PASSWORD: '',
+  PASSWORD: 'root',
   DB: 'bucket_suggestion',
+  PORT:'8889',
   dialect: 'mysql',
+  DB_SOCKET:"/Applications/MAMP/tmp/mysql/mysql.sock",
 
   pool: {
       max: 5,
